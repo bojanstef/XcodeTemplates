@@ -26,7 +26,7 @@ extension ___FILEBASENAME___ {
 
         let storyboardName = String(describing: ___VARIABLE_productName:identifier___ViewController.self)
         let storyboard = UIStoryboard(name: storyboardName, bundle: nil)
-        let viewController = storyboard.instantiateInitialViewController() as! T // swiftlint:disable:this force_cast
+        let viewController = storyboard.instantiateInitialViewController() as! ___VARIABLE_productName:identifier___ViewController // swiftlint:disable:this force_cast
         viewController.presenter = presenter
         return viewController
     }
