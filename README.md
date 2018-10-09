@@ -9,7 +9,7 @@ Move each `.xctemplate` directory into `~/Library/Developer/Xcode/Templates/Cust
 Named after and inspired by VIPER architecture. Wireframes create and dependency inject each component of a module:
 - `xDataManageable` injects into
 - `xInteractor` injects into
-- `xPresentor` injects into
+- `xPresenter` injects into
 - `xViewController` instantiated from a
 - `xStoryboard` file
 
