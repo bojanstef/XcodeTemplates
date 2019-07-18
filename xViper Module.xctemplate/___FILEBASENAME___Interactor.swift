@@ -5,10 +5,10 @@ import Foundation
 protocol ___VARIABLE_productName:identifier___Interactable {}
 
 final class ___FILEBASENAME___ {
-    fileprivate let dataManager: ___VARIABLE_productName:identifier___DataManageable
+    fileprivate let networkAccess: ___VARIABLE_productName:identifier___Accessing
 
-    init(dataManager: ___VARIABLE_productName:identifier___DataManageable) {
-        self.dataManager = dataManager
+    init(networkAccess: ___VARIABLE_productName:identifier___Accessing) {
+        self.networkAccess = networkAccess
     }
 }
 

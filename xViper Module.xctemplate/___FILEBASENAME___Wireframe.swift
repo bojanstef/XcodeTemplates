@@ -14,8 +14,8 @@ final class ___FILEBASENAME___ {
 
 extension ___FILEBASENAME___ {
     var viewController: UIViewController {
-        let dataManager: ___VARIABLE_productName:identifier___DataManageable = DataManager()
-        let interactor = ___VARIABLE_productName:identifier___Interactor(dataManager: dataManager)
+        let networkAccess: ___VARIABLE_productName:identifier___Accessing = NetworkGateway()
+        let interactor = ___VARIABLE_productName:identifier___Interactor(networkAccess: networkAccess)
         let presenter = ___VARIABLE_productName:identifier___Presenter(moduleDelegate: moduleDelegate, interactor: interactor)
 
         //return UIStoryboard.instantiateInitialViewController(___VARIABLE_productName:identifier___ViewController.self) { viewController in
